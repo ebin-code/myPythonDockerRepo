@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: mydockeracrebin.azurecr.io/ebin-code/mypythondockerrepo:$(Build.BuildId)
+        image: mydockeracrebin.azurecr.io/ebin-code/mypythondockerrepo:IMAGE_TAG
         ports:
         - containerPort: 5000
 # service type loadbalancer       
