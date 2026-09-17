@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: mydockeracrebin.azurecr.io/ebin-code/mypythondockerrepo:latest  
+        image: mydockeracrebin.azurecr.io/ebin-code/mypythondockerrepo:latest      
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
